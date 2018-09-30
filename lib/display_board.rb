@@ -11,4 +11,6 @@ def display_board(board)
  end
 end
 
+board = [" "," "," "," "," "," "," "," "," "]
+
 display_board(board)
