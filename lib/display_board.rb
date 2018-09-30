@@ -3,21 +3,12 @@
 # out the current state.
 
 def display_board(board)
-  if board = [" "," "," "," "," "," "," "," "," "]
- puts "#{board[0]}|#{broard[1]}|#{board[2]}   "
+ puts "#{board[0]}|#{broard[1]}|#{board[2]}"
  puts "-----------"
- puts "   |   |   "
+ puts "#{board[3]}|#{broard[4]}|#{board[5]}"
  puts "-----------"
- puts "   |   |   " 
+ puts "#{board[6]}|#{broard[7]}|#{board[8]}"
  
- elsif board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
- 
- puts "   |   |   "
- puts "-----------"
- puts "   | X |   "
- puts "-----------"
- puts "   |   |   " 
- end
  end
  
  board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
