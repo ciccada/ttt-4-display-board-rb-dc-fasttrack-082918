@@ -9,6 +9,7 @@ def display_board(board)
  puts "-----------"
  puts "   |   |   " 
  end
+ elsif
 end
 
 board = [" "," "," "," "," "," "," "," "," "]
