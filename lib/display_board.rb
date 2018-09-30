@@ -12,6 +12,12 @@ def display_board(board)
  elsif
 end
 
-board = [" "," "," "," "," "," "," "," "," "]
-
+board = [" "," "," "," ","X"," "," "," "," "]
+ puts "   |   |   "
+ puts "-----------"
+ puts "   | X |   "
+ puts "-----------"
+ puts "   |   |   " 
+ end
+ end
 display_board(board)
