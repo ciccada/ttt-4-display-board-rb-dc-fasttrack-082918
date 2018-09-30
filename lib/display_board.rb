@@ -1,6 +1,7 @@
 
 # Define display_board that accepts a board and prints
 # out the current state.
+
 def display_board(board)
   if board = [" "," "," "," "," "," "," "," "," "]
  puts "   |   |   "
@@ -8,8 +9,8 @@ def display_board(board)
  puts "   |   |   "
  puts "-----------"
  puts "   |   |   " 
- end
  elsif board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+ 
  puts "   |   |   "
  puts "-----------"
  puts "   | X |   "
