@@ -10,8 +10,6 @@ def display_board(board)
  puts "   |   |   " 
  end
  elsif
-end
-
 board = [" "," "," "," ","X"," "," "," "," "]
  puts "   |   |   "
  puts "-----------"
