@@ -9,8 +9,7 @@ def display_board(board)
  puts "-----------"
  puts "   |   |   " 
  end
- elsif
-board = [" "," "," "," ","X"," "," "," "," "]
+ elsif board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
  puts "   |   |   "
  puts "-----------"
  puts "   | X |   "
